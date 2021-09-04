@@ -1,2 +1,2 @@
 # Linux
-Linux stuff
+My Linux scripts
