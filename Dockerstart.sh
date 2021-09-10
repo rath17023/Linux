@@ -24,9 +24,11 @@
 #	sudo systemctl daemon-reload
 #	sudo systemctl enable npm-autostart.service
 
+## Script Start
 #!/bin/sh
 ## Starting docker containers
 ## Often I set this up with an init script to auto star/run. I am sure there are better ways but this was the way I know of that works.
 
 cd #Path to where docker Compose is installed this shouldn't be needed but seems to make things more stable.
 docker-compose up -d
+## Script End
